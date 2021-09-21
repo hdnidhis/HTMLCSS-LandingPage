@@ -176,32 +176,33 @@ section {
 	max-width: 100%;
 }
 .hero {
-	background-image: "./img/hero.jpg";
+	background-image: url("../img/hero.jpg");
 	height: 400px;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	text-transform: uppercase;
 }
 
-.hero div h1 {
+.hero h1 {
 	position: relative;
-	z-index: -30px;
+	left: -30px;
 }
-.hero div h2 {
+.hero h2 {
 	color: #faa541;
 }
 
-.hero div h1 h2 {
+.hero h1,
+.hero h2 {
 	font-size: 63px;
-	font-weight: 700px;
-	line-height: 0.9px;
+	font-weight: 700;
+	line-height: 0.9;
 }
 
-.hero div p {
+.hero p {
 	letter-spacing: 2px;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 21px;
-	margin: 0px 0px 10px;
+	margin: 0 0 10px;
 }
 
 .banner {
@@ -218,15 +219,15 @@ section {
 
 .banner-text {
 	font-size: 30px;
-	font-weight: 700px;
+	font-weight: 700;
 	text-transform: uppercase;
 	line-height: 1;
 	text-align: center;
 }
 
-.banner-text div > :last-child {
+.banner-text > div:last-child {
 	font-size: 16px;
-	font-weight: 400px;
+	font-weight: 400;
 	margin-top: 5px;
 }
 
@@ -246,9 +247,9 @@ section {
 	text-align: center;
 }
 
-.category > div {
+.category-text > div {
 	font-size: 16px;
-	font-weight: 200px;
+	font-weight: 200;
 	color: #faa541;
 }
 
