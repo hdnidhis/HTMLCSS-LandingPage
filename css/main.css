@@ -123,8 +123,8 @@ section {
 }
 
 .search-box {
-	width: 330px;
-	height: 30px;
+	width: 330;
+	height: 30;
 	padding: 6px 12px;
 	border: 1px;
 	color: #a0a0a0;
